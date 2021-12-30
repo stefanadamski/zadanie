@@ -56,7 +56,7 @@ export default function App() {
                                     <div className='left_info'>
                                         <div>
                                             <div>
-                                                <div className='grey_title'> Mission</div>
+                                                <div className='grey_title'> Mission </div>
                                                 <div className='mission_name white_description'> {launch.mission_name} </div>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ export default function App() {
                                     </>))}
                                 </div>
                             </>
-                            ))}
+                        ))}
                     </Carousel>
                 </div>
             </div>
