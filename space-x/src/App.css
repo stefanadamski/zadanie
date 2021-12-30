@@ -1,0 +1,207 @@
+.space_container {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(320deg, #414141  0%, #000000 75%);
+}
+.launch_component {
+    width: 78%;
+    height: 78%;
+    background: transparent;
+}
+.space_logo {
+  background-image: url("assets/SpaceLogo.png");
+  filter: invert(100);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 100px;
+}
+
+.learn_button {
+  width: 140px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px white;
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-shadow: 0 0 3px white;
+  background: transparent;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 20px 2px;
+}
+.left_info {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.right_info {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.right_info_row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.ships {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ship_info {
+  color: black;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 16px;
+}
+.grey_title {
+  color: grey;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: 0 0 2px grey;
+  text-align: left;
+  margin: 5px 0;
+}
+.white_description {
+  color: white;
+  text-align: left;
+  margin: 5px 0;
+  text-shadow: 0 0 2px white;
+}
+
+.mission_name {
+  font-size: 24px;
+}
+
+.ship_image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 250px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+}
+.ship_card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 270px;
+  height: 260px;
+  margin: 10px 5px;
+  background: white;
+  box-shadow: 0 0 4px white;
+  border-radius: 20px;
+}
+
+.ship_title {
+  font-size: 16px;
+  margin: 7px 0;
+  font-weight: 700;
+}
+.ship_description {
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  text-shadow: 0 0 1px black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.ship_description_row {
+  display: flex;
+}
+
+.rocket_name {
+  display: flex;
+}
+.recovered {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: black;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0 0 6px green;
+  padding: 2px;
+}
+
+.carousel.carousel-slider {
+  overflow: inherit;
+}
+
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+  background-color: transparent;
+  right: -146px;
+}
+
+.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+  background-color: transparent;
+  left: -146px;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+  opacity: 1;
+}
+
+.carousel .control-next.control-arrow:before {
+  content: '';
+  border: solid #FFFFFF;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 14px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.carousel .control-prev.control-arrow:before {
+  content: '';
+  border: solid #FFFFFF;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 14px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.control-dots {
+  display: none;
+}
